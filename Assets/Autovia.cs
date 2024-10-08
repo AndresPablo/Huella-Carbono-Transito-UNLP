@@ -9,20 +9,20 @@ public class Autovia : MonoBehaviour
     [SerializeField] Transform start;
     [SerializeField] Transform end;
 
+    public bool spawn_ocupado;
+
 
     void Start()
     {
         
     }
 
-    public void ColocarVehiculo(GameObject t)
+    public bool ColocarVehiculo(GameObject t)
     {
         t.transform.position = start.position;
         Agente agente = t.GetComponent<Agente>();
         if(agente){
-            SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
-            if (spriteRenderer != null)
-                spriteRenderer.sortingOrder = orden_capa;
+                agente.grafico.sortingOrder = orden_capa;
             if (direccion == -1){
                 agente.speed = -agente.speed;
                 Vector3 nuevaEscala = agente.transform.localScale;
@@ -30,6 +30,8 @@ public class Autovia : MonoBehaviour
                 agente.transform.localScale = nuevaEscala;
             }
         }
+
+        return true;
     }
 
     void AsignarOrderInLayer(int order)
@@ -42,7 +44,7 @@ public class Autovia : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("No se encontró un SpriteRenderer en este GameObject.");
+            Debug.LogWarning("No se encontrï¿½ un SpriteRenderer en este GameObject.");
         }
     }
 }
