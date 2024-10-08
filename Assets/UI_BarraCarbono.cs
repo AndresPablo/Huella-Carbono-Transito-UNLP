@@ -8,10 +8,16 @@ public class UI_BarraCarbono : MonoBehaviour
     [SerializeField] Image barra_color;
 
     public float wobbleAmount = 0.02f; // Rango de movimiento
-    public float wobbleSpeed = 5f; // Velocidad de la oscilaci�n
+    public float wobbleSpeed = 5f; // Velocidad de la oscilaci�n
 
     [SerializeField]float target_value = .5f;
     float smooth_value;
+
+        // Define los colores
+        [Header("Colores")]
+    [SerializeField]Color colorMinimo = Color.green; // Verde para mínimo
+    [SerializeField]Color colorMedio = Color.yellow; // Amarillo para medio
+    [SerializeField]Color colorMaximo = Color.red; // Rojo para máximo
 
 
     public void SetValor(float nuevo_valor)
@@ -26,12 +32,14 @@ public class UI_BarraCarbono : MonoBehaviour
 
         // Establecer el fillAmount
         barra_color.fillAmount = Mathf.Clamp01(target_value + wobble);
+
+        CambiarColorBarra(target_value);
     }
 
-    /*
-    void RandomizarValorMovimiento()
+    void CambiarColorBarra(float valor)
     {
-        target_value += target_value + RandomRange(-random_factor, random_factor);
+        // Interpolación de color
+        Color colorActual = Color.Lerp(colorMinimo,colorMaximo , valor);
+        barra_color.color = colorActual; // Cambia el color de la barra
     }
-    */
 }

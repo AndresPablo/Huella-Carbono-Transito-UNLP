@@ -17,20 +17,21 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] float frecuencia_generacion_min = 0.10f;
     [SerializeField] float frecuencia_generacion_max = 0.2f;
-    [Range(0, 1f)] public float congestion = .85f;
 
 
     public float velocidad_transito = 2f;
     [SerializeField] Autovia calle_izq_1;
     [SerializeField] Autovia calle_der_1;
-    [SerializeField] Autovia via_tren;
+    [SerializeField] GameObject via_tren;
+    [SerializeField] GameObject ciclovia;
+    [SerializeField] GameObject solo_bus;
     [SerializeField] TrafficSpawner spawner;
     [Header("Sliders")]
     [SerializeField] Image autos_barra;
     [SerializeField] Slider bus_slider;
     [SerializeField] Slider bici_slider;
     [SerializeField] Slider tren_slider;
-    [SerializeField] UI_BarraCarbono barra_carbono;
+    [SerializeField] Carbono carbono_handler;
 
     [Header("Valores Min-Max")]
     public int autos_min = 10;
@@ -49,6 +50,8 @@ public class GameManager : MonoBehaviour
     [Header("Mejoras")]
     public bool mejora_ciclovia;
     public bool mejora_carril_bus;
+    public bool nucleos_de_caminata;
+    [SerializeField] UI_PanelesInfo UI_PanelesInfo;
 
     [Header("Vehiculos actuales")]
     public int autos_actuales;
@@ -66,7 +69,32 @@ public class GameManager : MonoBehaviour
     {
         Configurar_Sliders_OnStart();
         StartCoroutine(RutinaSpawnearVehiculos());
+        solo_bus.SetActive(false);
+        via_tren.SetActive(false);
+        ciclovia.SetActive(false);
     }
+
+
+    public void Mejorar_Ciclovias(){
+        mejora_ciclovia = true;
+        bici_slider.maxValue = bicis_max + 6;
+        ciclovia.SetActive(true);
+        UI_PanelesInfo.Mostrar_MejoraCiclovia();
+    }
+
+    public void Mejorar_SoloBus(){
+        mejora_carril_bus = true;
+        bus_slider.maxValue = buses_max +2;
+        solo_bus.SetActive(true);
+        UI_PanelesInfo.Mostrar_MejoraSolobus();
+    }
+
+
+    public void Mejorar_Caminata(){
+        nucleos_de_caminata = true;
+        UI_PanelesInfo.Mostrar_MejoraCaminata();
+    }
+
 
     void Update_AutosTargetCount(float cantidad_nueva)
     {
@@ -94,10 +122,9 @@ public class GameManager : MonoBehaviour
     }
 
     void Update_VehicleTargetAmounts(){
-        autosTargetCount -= (busesTargetCount * 5);
+        autosTargetCount = autos_max - (busesTargetCount * 4) - bicisTargetCount - (trenesTargetCount * 8);
         if(autosTargetCount < autos_min) autosTargetCount = autos_min;
     }
-
 
     public void GenerarTransportes()
     {
@@ -106,29 +133,38 @@ public class GameManager : MonoBehaviour
         if(trenes_actuales < trenesTargetCount)
         {
             Agente nuevo_tren = spawner.GenerarTren();
-            if(nuevo_tren != null)
+            
+            if(nuevo_tren != null){
+                nuevo_tren.via_exclusiva = true;
                 trenesLista.Add(nuevo_tren);
+            }
         }
 
         if(colectivos_actuales < busesTargetCount)
         {
             Agente nuevo_bus = spawner.GenerarBus(mejora_carril_bus);
             if(nuevo_bus != null)
+            {
                 busesLista.Add(nuevo_bus);
+                nuevo_bus.via_exclusiva = mejora_carril_bus;
+            }
         }
 
         if(bicis_actuales < bicisTargetCount)
         {
             Agente nueva_bicicleta = spawner.GenerarBicicleta(mejora_ciclovia);
-            if(nueva_bicicleta != null)
+            if(nueva_bicicleta != null){
+                nueva_bicicleta.via_exclusiva = mejora_ciclovia;
                 bicisLista.Add(nueva_bicicleta);
+            }
         }
 
         if(autos_actuales < autosTargetCount)
         {
             Agente nuevo_auto = spawner.GenerarAuto();
-            if(nuevo_auto != null)
+            if(nuevo_auto != null){
                 autosLista.Add(nuevo_auto);
+            }
         }
 
         ContarVehiculosActuales();
@@ -140,15 +176,6 @@ public class GameManager : MonoBehaviour
         float delay = Random.Range(frecuencia_generacion_min, frecuencia_generacion_max);
         yield return new WaitForSeconds(delay);
         StartCoroutine(RutinaSpawnearVehiculos());
-    }
-
-    public void ActualizarValores(float _congestion){
-        congestion = _congestion;
-    }
-
-    void ReciclarVehiculo()
-    {
-
     }
 
     public void EliminarAgente(Agente a)
@@ -196,14 +223,23 @@ public class GameManager : MonoBehaviour
         colectivos_actuales = busesLista.Count;
         bicis_actuales = bicisLista.Count;
         trenes_actuales = trenesLista.Count;
+        if(trenesTargetCount > 0){ 
+            via_tren.SetActive(true);
+        }
+        else
+        {
+            if(trenes_actuales == 0) via_tren.SetActive(false);
+        }
 
 
         autos_barra.fillAmount = (float)(autos_actuales - autos_min) / (float)(autos_max - autos_min);
+
+        Calcular_Huella_Carbono();
     }
 
     public void Calcular_Huella_Carbono()
     {
-        // TODO formula para calcular la huella de carbono
+        carbono_handler.Calcular_Huella_Carbono();
     }
 
     void Configurar_Sliders_OnStart()
@@ -217,7 +253,6 @@ public class GameManager : MonoBehaviour
         bus_slider.SetValueWithoutNotify(busesTargetCount);
         bici_slider.SetValueWithoutNotify(bicisTargetCount);
         tren_slider.SetValueWithoutNotify(trenesTargetCount);
-
 
         bus_slider.onValueChanged.AddListener(Update_BusesTargetCount);
         bici_slider.onValueChanged.AddListener(Update_BicicletasTargetCount);

@@ -8,6 +8,8 @@ public class Agente : MonoBehaviour
     public Transform target;
     public SpriteRenderer grafico;
 
+    public bool via_exclusiva;
+
     [SerializeField] int pasajeros_min = 1;
     [SerializeField] int pasajeros_max = 4;
 
