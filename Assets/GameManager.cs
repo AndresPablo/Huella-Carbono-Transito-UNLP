@@ -4,7 +4,7 @@ using UnityEngine.UI;
 using UnityEngine;
 using UnityEngine.PlayerLoop;
 
-public enum TipoVehiculo {AUTO, BUS, BICICLETA, TREN}
+public enum TipoVehiculo {AUTO, BUS, BICICLETA, TREN, PEATON}
 
 
 public class GameManager : MonoBehaviour
@@ -40,12 +40,14 @@ public class GameManager : MonoBehaviour
     public int buses_max = 0;
     public int bicis_max = 0;
     public int trenes_max = 0;
+    public int peatones_max = 0;
 
     [Header("Cantidades objetivo")]
     public int autosTargetCount;
     public int busesTargetCount;
     public int bicisTargetCount;
     public int trenesTargetCount;
+    public int peatonesTargetCount;
 
 
     [Header("Mejoras")]
@@ -59,11 +61,13 @@ public class GameManager : MonoBehaviour
     public int colectivos_actuales;
     public int bicis_actuales;
     public int trenes_actuales;
+    public int peatones_actuales;
 
     public List<Agente> autosLista;
     public List<Agente> busesLista;
     public List<Agente> bicisLista;
     public List<Agente> trenesLista;
+    public List<Agente> peatonesLista;
 
 
     void Start()
@@ -96,6 +100,7 @@ public class GameManager : MonoBehaviour
         nucleos_de_caminata = true;
         go_mejora_camina.SetActive(true);
         UI_PanelesInfo.Mostrar_MejoraCaminata();
+        Update_PeatonesTargetCount(peatones_max);
     }
 
 
@@ -120,25 +125,32 @@ public class GameManager : MonoBehaviour
 
     void Update_TrenesTargetCount(float cantidad_nueva)
     {
+        if(trenesTargetCount != 0 && cantidad_nueva == 0){
+            EliminarTodosTrenes();
+        }
         trenesTargetCount = ((int)cantidad_nueva);
         Update_VehicleTargetAmounts();
     }
 
+    void Update_PeatonesTargetCount(float cantidad_nueva)
+    {
+        peatonesTargetCount = ((int)cantidad_nueva);
+        Update_VehicleTargetAmounts();
+    }
+
     void Update_VehicleTargetAmounts(){
-        autosTargetCount = autos_max - (busesTargetCount * 3) - bicisTargetCount - (trenesTargetCount * 8);
+        autosTargetCount = autos_max - (busesTargetCount * 3) - bicisTargetCount - (trenesTargetCount * 6) - (peatones_actuales/2);
         if(autosTargetCount < autos_min) autosTargetCount = autos_min;
     }
 
     public void GenerarTransportes()
     {
         float r = Random.Range(0,1f);
-
-        if(trenes_actuales < trenesTargetCount)
+        if(r>.85f && trenes_actuales < trenesTargetCount-1)
         {
             Agente nuevo_tren = spawner.GenerarTren();
             
             if(nuevo_tren != null){
-                nuevo_tren.via_exclusiva = true;
                 trenesLista.Add(nuevo_tren);
             }
         }
@@ -149,7 +161,7 @@ public class GameManager : MonoBehaviour
             if(nuevo_bus != null)
             {
                 busesLista.Add(nuevo_bus);
-                nuevo_bus.via_exclusiva = mejora_carril_bus;
+                return;
             }
         }
 
@@ -157,7 +169,6 @@ public class GameManager : MonoBehaviour
         {
             Agente nueva_bicicleta = spawner.GenerarBicicleta(mejora_ciclovia);
             if(nueva_bicicleta != null){
-                nueva_bicicleta.via_exclusiva = mejora_ciclovia;
                 bicisLista.Add(nueva_bicicleta);
             }
         }
@@ -167,6 +178,13 @@ public class GameManager : MonoBehaviour
             Agente nuevo_auto = spawner.GenerarAuto();
             if(nuevo_auto != null){
                 autosLista.Add(nuevo_auto);
+            }
+        }
+
+        if(r>.75f && peatones_actuales < peatonesTargetCount){
+            Agente nuevo_peaton = spawner.GenerarPeaton();
+            if(nuevo_peaton != null){
+                peatonesLista.Add(nuevo_peaton);
             }
         }
 
@@ -180,6 +198,8 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(delay);
         StartCoroutine(RutinaSpawnearVehiculos());
     }
+
+
 
     public void EliminarAgente(Agente a)
     {
@@ -213,6 +233,13 @@ public class GameManager : MonoBehaviour
                     Destroy(a.gameObject);
                 }
                 break;
+            case TipoVehiculo.PEATON:
+                if(peatonesLista.Count > 0)
+                {
+                    peatonesLista.Remove(a);
+                    Destroy(a.gameObject);
+                }
+                break;
             default:
                 break;
         }
@@ -220,12 +247,23 @@ public class GameManager : MonoBehaviour
         ContarVehiculosActuales();
     }
 
+    public void EliminarTodosTrenes(){
+        foreach(Agente tren in trenesLista){
+            Destroy(tren.gameObject);
+        }
+        trenesLista.Clear();
+        via_tren.SetActive(false);
+        trenes_actuales = trenesLista.Count;
+    }
+
+
     void ContarVehiculosActuales() {
         autos_actuales = autosLista.Count;
         autos_barra.fillAmount = autos_actuales / autos_max;
         colectivos_actuales = busesLista.Count;
         bicis_actuales = bicisLista.Count;
         trenes_actuales = trenesLista.Count;
+        peatones_actuales = peatonesLista.Count;
         if(trenesTargetCount > 0){ 
             via_tren.SetActive(true);
         }
@@ -239,6 +277,9 @@ public class GameManager : MonoBehaviour
 
         Calcular_Huella_Carbono();
     }
+
+
+
 
     public void Calcular_Huella_Carbono()
     {

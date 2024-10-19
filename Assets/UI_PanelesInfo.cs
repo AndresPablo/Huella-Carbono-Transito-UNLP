@@ -10,16 +10,16 @@ public class UI_PanelesInfo : MonoBehaviour
     public GameObject bicis_panel;
     public GameObject buses_panel;
     public GameObject trenes_panel;
-
     public GameObject ciclovia_panel;
     public GameObject solobus_panel;
     public GameObject caminata_panel;
 
+    [Space]
 
     public GameObject boton_mejorar_ciclovias;
     public GameObject boton_mejorar_solobus;
     public GameObject boton_mejorar_caminata;
-
+    [Space]
     public GameObject check_ciclovias_listo;
     public GameObject check_solobus_listo;
     public GameObject check_caminata_listo;

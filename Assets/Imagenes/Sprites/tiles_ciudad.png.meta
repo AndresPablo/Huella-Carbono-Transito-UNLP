@@ -1138,7 +1138,7 @@ TextureImporter:
         serializedVersion: 2
         x: 96
         y: 352
-        width: 16
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1149,27 +1149,6 @@ TextureImporter:
       bones: []
       spriteID: 61bc87d6d10a1bce0800000000000000
       internalID: -1391154761629644010
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles_ciudad 1_3
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 352
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0fd2d66f84a6c13c0800000000000000
-      internalID: -4387515075361165840
       vertices: []
       indices: 
       edges: []
@@ -1897,7 +1876,7 @@ TextureImporter:
         width: 320
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

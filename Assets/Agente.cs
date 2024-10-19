@@ -20,13 +20,22 @@ public class Agente : MonoBehaviour
     void Start()
     {
         gm = GameManager.singleton;  
-        pasajeros = Random.Range(pasajeros_min, pasajeros_max);  
+        //pasajeros = Random.Range(pasajeros_min, pasajeros_max);  
     }
 
     void Update()
     {
         Vector2 newpos = (Vector2)transform.position + (speed) * Time.deltaTime;
         transform.position = newpos;
+    }
+
+    public void AsignarOrderInLayer(int order)
+    {
+        grafico.sortingOrder = order;        
+    }
+
+    public void EspejarGraficos(){
+         grafico.flipX = true;
     }
 
 

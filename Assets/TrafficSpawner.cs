@@ -11,6 +11,7 @@ public class TrafficSpawner : MonoBehaviour
     [SerializeField] GameObject[] autosPrefabs;
     [SerializeField] GameObject[] colectivosPrefabs;
     [SerializeField] GameObject[] bicicletasPrefabs;
+    [SerializeField] GameObject[] peatonesPrefabs;
     [SerializeField] GameObject tren_prefab;
 
     [Header("Vias")]
@@ -24,13 +25,17 @@ public class TrafficSpawner : MonoBehaviour
     [SerializeField] Autovia solo_bus_der;
     [SerializeField] Autovia via_tren_1;
     [SerializeField] Autovia via_tren_2;
+    [SerializeField] Autovia peatonal_izq_1;
+    [SerializeField] Autovia peatonal_izq_2;
+    [SerializeField] Autovia peatonal_der_1;
+    [SerializeField] Autovia peatonal_der_2;
 
     [Header("Contenedores / Poolers")]
     [SerializeField] Transform carPooler;
     [SerializeField] Transform busPooler;
     [SerializeField] Transform biciPooler;
     [SerializeField] Transform trenPooler;
-
+    [SerializeField] Transform peatonPooler;
 
 
 
@@ -42,7 +47,17 @@ public class TrafficSpawner : MonoBehaviour
     public Agente GenerarAuto()
     {
         // Hay una calle libre?
-        Autovia carril_libre = GetRandomCalle();
+        Autovia carril_libre;
+
+        if(GameManager.singleton.mejora_carril_bus){
+            // usar carriles sin bus
+            carril_libre = GetRandomCalleSinBus();
+        }else{
+            // usar todos los carriles
+            carril_libre = GetRandomCalle();
+        }
+
+
         int randomIndex = 0;
         if(carril_libre)
         {
@@ -52,10 +67,11 @@ public class TrafficSpawner : MonoBehaviour
                 randomIndex = Random.Range(0, autosPrefabs.Length);
             
                 GameObject go = Instantiate(autosPrefabs[randomIndex]);
-                carril_libre.ColocarVehiculo(go);
                 go.transform.SetParent(carPooler);
             
-                return go.GetComponent<Agente>();
+                Agente agente = go.GetComponent<Agente>();
+                carril_libre.ColocarVehiculo(agente);
+                return agente;
             }
         }
         return null;
@@ -78,10 +94,13 @@ public class TrafficSpawner : MonoBehaviour
                         randomIndex = Random.Range(0, colectivosPrefabs.Length);
                     
                         GameObject go = Instantiate(colectivosPrefabs[randomIndex]);
-                        carril_libre.ColocarVehiculo(go);
                         go.transform.SetParent(busPooler);
-                    
-                        return go.GetComponent<Agente>();
+
+                        Agente agente = go.GetComponent<Agente>();
+                        agente.via_exclusiva = true;
+                        agente.speed.x += 1f; 
+                        carril_libre.ColocarVehiculo(agente);
+                        return agente;
                     }
                 }
             }
@@ -97,10 +116,11 @@ public class TrafficSpawner : MonoBehaviour
                         randomIndex = Random.Range(0, colectivosPrefabs.Length);
                     
                         GameObject go = Instantiate(colectivosPrefabs[randomIndex]);
-                        carril_libre.ColocarVehiculo(go);
                         go.transform.SetParent(busPooler);
                     
-                        return go.GetComponent<Agente>();
+                        Agente agente = go.GetComponent<Agente>();
+                        carril_libre.ColocarVehiculo(agente);
+                        return agente;
                     }
                 }
             return null;
@@ -118,9 +138,12 @@ public class TrafficSpawner : MonoBehaviour
             if(carril_libre)
             {
                 GameObject go = Instantiate(bicicletasPrefabs[randomIndex]);
-                carril_libre.ColocarVehiculo(go);
                 go.transform.SetParent(biciPooler);
-                return go.GetComponent<Agente>();
+                Agente agente = go.GetComponent<Agente>();
+                agente.via_exclusiva = true;
+                agente.speed.x += .5f; 
+                carril_libre.ColocarVehiculo(agente);
+                return agente;
             }
             return null;
         }else{
@@ -128,9 +151,10 @@ public class TrafficSpawner : MonoBehaviour
             if(carril_libre)
             {
                 GameObject go = Instantiate(bicicletasPrefabs[randomIndex]);
-                carril_libre.ColocarVehiculo(go);
                 go.transform.SetParent(biciPooler);
-                return go.GetComponent<Agente>();
+                Agente agente = go.GetComponent<Agente>();
+                carril_libre.ColocarVehiculo(agente);
+                return agente;
             }
             return null;
         }
@@ -143,12 +167,32 @@ public class TrafficSpawner : MonoBehaviour
         if(carril_libre)
         {
             GameObject go = Instantiate(tren_prefab);
-            carril_libre.ColocarVehiculo(go);
             go.transform.SetParent(trenPooler);
-            return go.GetComponent<Agente>();
+            Agente agente = go.GetComponent<Agente>();
+            agente.via_exclusiva = true;
+            carril_libre.ColocarVehiculo(agente);
+            return agente;
         }
         return null;
     }
+
+    public Agente GenerarPeaton()
+    {
+        // Hay una calle libre?
+        Autovia carril_libre = GetVeredaLibre();
+        if(carril_libre)
+        {
+            int randomIndex;
+            randomIndex = Random.Range(0, peatonesPrefabs.Length);
+            GameObject go = Instantiate(peatonesPrefabs[randomIndex]);
+            go.transform.SetParent(peatonPooler);
+            Agente agente =go.GetComponent<Agente>();
+            carril_libre.ColocarVehiculo(agente);
+            return agente;
+        }
+        return null;
+    }
+
 
     public Autovia GetCicloviaLibre()
     {
@@ -257,4 +301,61 @@ public class TrafficSpawner : MonoBehaviour
         // Si no se encontró ninguna calle disponible, retornamos null
         return null;
     }
+
+    public Autovia GetRandomCalleSinBus()
+    {
+        // Generar una lista de objetos
+        List<Autovia> calles = new List<Autovia>();
+
+        calles.Add(calle_izq_2);
+        calles.Add(calle_der_1);
+
+        int intentosRestantes = intentosMaximos;
+        while (intentosRestantes > 0)
+        {
+            int randomIndex = Random.Range(0, calles.Count);
+            Autovia calleSeleccionada = calles[randomIndex];
+
+            // Verificamos si el spawn no está ocupado
+            if (!calleSeleccionada.spawn_ocupado)
+            {
+                return calleSeleccionada;
+            }
+
+            // Restamos un intento
+            intentosRestantes--;
+        }
+
+        // Si no se encontró ninguna calle disponible, retornamos null
+        return null;
+    }
+
+    public Autovia GetVeredaLibre()
+    {
+        List<Autovia> veredas = new List<Autovia>();
+        veredas.Add(peatonal_izq_1);
+        veredas.Add(peatonal_izq_2);
+        veredas.Add(peatonal_der_1);
+        veredas.Add(peatonal_der_2);
+
+        int intentosRestantes = intentosMaximos;
+        while (intentosRestantes > 0)
+        {
+            int randomIndex = Random.Range(0, veredas.Count);
+            Autovia vereda_seleccionada = veredas[randomIndex];
+
+            // Verificamos si el spawn no está ocupado
+            if (!vereda_seleccionada.spawn_ocupado)
+            {
+                return vereda_seleccionada;
+            }
+
+            // Restamos un intento
+            intentosRestantes--;
+        }
+
+        // Si no se encontró ninguna calle disponible, retornamos null
+        return null;
+    }
+
 }

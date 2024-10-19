@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 
 public class AreaDestructora : MonoBehaviour
@@ -16,8 +15,4 @@ public class AreaDestructora : MonoBehaviour
         gm.EliminarAgente( other.gameObject.GetComponent<Agente>() );
     }
 
-    void OnCollisionEnter2D(Collision2D other)
-    {
-        //gm.EliminarAgente(other.gameObject.GetComponent<Agente>());
-    }
 }

@@ -296,7 +296,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tipoVehiculo: 3
-  speed: {x: 2, y: 0}
+  speed: {x: 5, y: 0}
   target: {fileID: 0}
   grafico: {fileID: 801560460150640536}
   via_exclusiva: 0

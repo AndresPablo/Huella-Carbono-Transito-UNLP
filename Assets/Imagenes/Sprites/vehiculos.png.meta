@@ -10,25 +10,25 @@ TextureImporter:
     second: vagon_frente
   - first:
       213: 8752035202793434999
-    second: vehiculos_2
+    second: peaton_1B
   - first:
       213: 5709517935236686753
-    second: vehiculos_3
+    second: peaton_2a
   - first:
       213: -4273375720044636838
-    second: vehiculos_4
+    second: peaton2b
   - first:
       213: -6820190767921372131
-    second: vehiculos_5
+    second: peaton_3A
   - first:
       213: -8785517213129552540
-    second: vehiculos_6
+    second: peaton_3B
   - first:
       213: 972935182479949563
-    second: vehiculos_7
+    second: peaton_4A
   - first:
       213: -7875428772536146421
-    second: vehiculos_8
+    second: peaton_4b
   - first:
       213: 2177911518253958417
     second: vehiculos_9
@@ -52,7 +52,7 @@ TextureImporter:
     second: bici-1b
   - first:
       213: 8369810276776352245
-    second: peaton_1
+    second: peaton_1A
   - first:
       213: -2726048798672687614
     second: peaton_2
@@ -275,13 +275,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: peaton_1
+      name: peaton_1A
       rect:
         serializedVersion: 2
-        x: 32
+        x: 36
         y: 48
-        width: 16
-        height: 16
+        width: 3
+        height: 9
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,27 +291,6 @@ TextureImporter:
       bones: []
       spriteID: 5f91ba00a1a872470800000000000000
       internalID: 8369810276776352245
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: peaton_2
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 20eebb29f012b2ad0800000000000000
-      internalID: -2726048798672687614
       vertices: []
       indices: 
       edges: []
@@ -417,48 +396,6 @@ TextureImporter:
       bones: []
       spriteID: 1057c43acef8ec8f0800000000000000
       internalID: -518318660586277631
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: peaton_3
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 786da88c7b647d700800000000000000
-      internalID: 564998033415788167
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: peaton_4
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e6606b25a168c8290800000000000000
-      internalID: -7886781399817648530
       vertices: []
       indices: 
       edges: []
@@ -795,6 +732,153 @@ TextureImporter:
       bones: []
       spriteID: 0dbfe5b7f4bfceb80800000000000000
       internalID: -8364034089143043120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaton_1B
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 48
+        width: 3
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f673c85a9757970800000000000000
+      internalID: 8752035202793434999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaton_2a
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 48
+        width: 3
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a32180df484c3f40800000000000000
+      internalID: 5709517935236686753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaton2b
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 48
+        width: 3
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55d5f68c6be1b4c0800000000000000
+      internalID: -4273375720044636838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaton_3A
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 32
+        width: 3
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d14e5a9a1a0d951a0800000000000000
+      internalID: -6820190767921372131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaton_3B
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 32
+        width: 3
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d455f64a2931680800000000000000
+      internalID: -8785517213129552540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaton_4A
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 32
+        width: 3
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe7235c46f808d00800000000000000
+      internalID: 972935182479949563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peaton_4b
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 32
+        width: 3
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06a717d14bd4b290800000000000000
+      internalID: -7875428772536146421
       vertices: []
       indices: 
       edges: []
