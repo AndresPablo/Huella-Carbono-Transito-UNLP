@@ -25,6 +25,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject via_tren;
     [SerializeField] GameObject ciclovia;
     [SerializeField] GameObject solo_bus;
+    [SerializeField] GameObject go_mejora_camina;
     [SerializeField] TrafficSpawner spawner;
     [Header("Sliders")]
     [SerializeField] Image autos_barra;
@@ -72,6 +73,7 @@ public class GameManager : MonoBehaviour
         solo_bus.SetActive(false);
         via_tren.SetActive(false);
         ciclovia.SetActive(false);
+        go_mejora_camina.SetActive(false);
     }
 
 
@@ -92,6 +94,7 @@ public class GameManager : MonoBehaviour
 
     public void Mejorar_Caminata(){
         nucleos_de_caminata = true;
+        go_mejora_camina.SetActive(true);
         UI_PanelesInfo.Mostrar_MejoraCaminata();
     }
 
@@ -122,7 +125,7 @@ public class GameManager : MonoBehaviour
     }
 
     void Update_VehicleTargetAmounts(){
-        autosTargetCount = autos_max - (busesTargetCount * 4) - bicisTargetCount - (trenesTargetCount * 8);
+        autosTargetCount = autos_max - (busesTargetCount * 3) - bicisTargetCount - (trenesTargetCount * 8);
         if(autosTargetCount < autos_min) autosTargetCount = autos_min;
     }
 

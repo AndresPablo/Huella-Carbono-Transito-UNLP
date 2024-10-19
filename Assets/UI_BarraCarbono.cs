@@ -6,7 +6,7 @@ using UnityEngine;
 public class UI_BarraCarbono : MonoBehaviour
 {
     [SerializeField] Image barra_color;
-
+    [SerializeField] bool colorear;
     public float wobbleAmount = 0.02f; // Rango de movimiento
     public float wobbleSpeed = 5f; // Velocidad de la oscilaci�n
 
@@ -27,13 +27,15 @@ public class UI_BarraCarbono : MonoBehaviour
 
     void Update()
     {
+
         // Calcular un valor oscilante basado en el tiempo
         float wobble = Mathf.Sin(Time.time * wobbleSpeed) * wobbleAmount;
 
         // Establecer el fillAmount
         barra_color.fillAmount = Mathf.Clamp01(target_value + wobble);
 
-        CambiarColorBarra(target_value);
+        if(colorear)
+            CambiarColorBarra(target_value);
     }
 
     void CambiarColorBarra(float valor)

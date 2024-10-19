@@ -1,0 +1,1927 @@
+fileFormatVersion: 2
+guid: b4feed79d17115a488972d1abc1ddf22
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6401024950226058738
+    second: vereda_3
+  - first:
+      213: -311201108146440924
+    second: cesped_peq
+  - first:
+      213: -6085468133189990072
+    second: bicisenda_1
+  - first:
+      213: -898927838888780994
+    second: tiles_ciudad_3
+  - first:
+      213: -174652557355456865
+    second: tiles_ciudad_4
+  - first:
+      213: 8379472899834933424
+    second: tiles_ciudad_5
+  - first:
+      213: 5747364142650492478
+    second: tiles_ciudad_6
+  - first:
+      213: 7081938014579881182
+    second: tiles_ciudad_7
+  - first:
+      213: -7804670240879523958
+    second: tiles_ciudad_8
+  - first:
+      213: 6857671401811795446
+    second: tiles_ciudad_9
+  - first:
+      213: -4947986087628394082
+    second: tiles_ciudad_10
+  - first:
+      213: 6532807933792138925
+    second: tiles_ciudad_11
+  - first:
+      213: -3899654506104107135
+    second: tiles_ciudad_12
+  - first:
+      213: -4175350537760832310
+    second: tiles_ciudad_13
+  - first:
+      213: 8358410609811520230
+    second: tiles_ciudad_14
+  - first:
+      213: -4602490373168346631
+    second: tiles_ciudad_15
+  - first:
+      213: -6248050267890482217
+    second: tiles_ciudad_16
+  - first:
+      213: -3966658041264997687
+    second: tiles_ciudad_17
+  - first:
+      213: 6877475281764701997
+    second: tiles_ciudad_18
+  - first:
+      213: 878359178905462120
+    second: tiles_ciudad_19
+  - first:
+      213: 5614395719300880505
+    second: tiles_ciudad_20
+  - first:
+      213: -5602330289342140301
+    second: tiles_ciudad_21
+  - first:
+      213: -1054294518220565299
+    second: tiles_ciudad 1_0
+  - first:
+      213: 7914071314968873076
+    second: tiles_ciudad 1_1
+  - first:
+      213: -1391154761629644010
+    second: tiles_ciudad 1_2
+  - first:
+      213: -4387515075361165840
+    second: tiles_ciudad 1_3
+  - first:
+      213: -2740082678905605215
+    second: tiles_ciudad 1_4
+  - first:
+      213: 5372688187193531359
+    second: tiles_ciudad 1_5
+  - first:
+      213: -934824156431973149
+    second: tiles_ciudad 1_6
+  - first:
+      213: 5242459919591397395
+    second: tiles_ciudad 1_7
+  - first:
+      213: -6210919127756242808
+    second: tiles_ciudad 1_8
+  - first:
+      213: 8222859305859651183
+    second: tiles_ciudad 1_9
+  - first:
+      213: -3019947728905720259
+    second: tiles_ciudad 1_10
+  - first:
+      213: 127401008210605259
+    second: tiles_ciudad 1_11
+  - first:
+      213: 756331990853218741
+    second: tiles_ciudad 1_12
+  - first:
+      213: 6147812699080118457
+    second: tiles_ciudad 1_13
+  - first:
+      213: 2734167083568262311
+    second: tiles_ciudad 1_14
+  - first:
+      213: -7118474314656825113
+    second: tiles_ciudad 1_15
+  - first:
+      213: 7191781951276263691
+    second: tiles_ciudad 1_16
+  - first:
+      213: -2315159978322914530
+    second: tiles_ciudad 1_17
+  - first:
+      213: 7848385412746631788
+    second: tiles_ciudad 1_18
+  - first:
+      213: 9213082185331966281
+    second: tiles_ciudad 1_19
+  - first:
+      213: 3211319247480313631
+    second: tiles_ciudad 1_20
+  - first:
+      213: 3441444602583698994
+    second: tiles_ciudad 1_21
+  - first:
+      213: -4783578878224855350
+    second: tiles_ciudad 1_22
+  - first:
+      213: -4792352223462019744
+    second: tiles_ciudad 1_23
+  - first:
+      213: -7500517697940294438
+    second: tiles_ciudad 1_24
+  - first:
+      213: 4263183202521020691
+    second: tiles_ciudad 1_25
+  - first:
+      213: 1559193750250593312
+    second: tiles_ciudad 1_26
+  - first:
+      213: -6650588836809476366
+    second: tiles_ciudad 1_27
+  - first:
+      213: 6913756624610533281
+    second: tiles_ciudad 1_28
+  - first:
+      213: 8608210597547343955
+    second: tiles_ciudad 1_29
+  - first:
+      213: -6600612065344788893
+    second: tiles_ciudad 1_30
+  - first:
+      213: 4680170292976241816
+    second: arboles_2
+  - first:
+      213: 4440488473096104725
+    second: tiles_ciudad 1_32
+  - first:
+      213: -7109457352524188710
+    second: tiles_ciudad 1_33
+  - first:
+      213: -4438443780814359529
+    second: tiles_ciudad 1_34
+  - first:
+      213: 179029203198929745
+    second: tiles_ciudad 1_35
+  - first:
+      213: 5483123949616944017
+    second: tiles_ciudad 1_36
+  - first:
+      213: 6451467237391394650
+    second: tiles_ciudad 1_37
+  - first:
+      213: 1939505221457291040
+    second: tiles_ciudad 1_38
+  - first:
+      213: -232711896939012019
+    second: tiles_ciudad 1_39
+  - first:
+      213: 7982718547177913364
+    second: tiles_ciudad 1_40
+  - first:
+      213: -2787512734467834621
+    second: tiles_ciudad 1_41
+  - first:
+      213: -7530686003751987999
+    second: tiles_ciudad 1_42
+  - first:
+      213: 7151763037599692673
+    second: tiles_ciudad 1_43
+  - first:
+      213: -4023715813150073579
+    second: tiles_ciudad 1_44
+  - first:
+      213: 7987928013521643555
+    second: tiles_ciudad 1_45
+  - first:
+      213: 7309090934149831277
+    second: tiles_ciudad 1_46
+  - first:
+      213: 7957646232683788288
+    second: tiles_ciudad 1_47
+  - first:
+      213: 8215104756864158426
+    second: tiles_ciudad 1_48
+  - first:
+      213: 1785971972884500063
+    second: tiles_ciudad 1_49
+  - first:
+      213: -9208685076197529478
+    second: tiles_ciudad 1_50
+  - first:
+      213: 7197303522504008081
+    second: tiles_ciudad 1_51
+  - first:
+      213: -6466055117174327462
+    second: tiles_ciudad 1_52
+  - first:
+      213: -3630672870236067993
+    second: tiles_ciudad 1_53
+  - first:
+      213: 5355998297062879443
+    second: tiles_ciudad 1_54
+  - first:
+      213: -2347044594327983821
+    second: tiles_ciudad 1_55
+  - first:
+      213: -3660018860180114911
+    second: tiles_ciudad 1_56
+  - first:
+      213: 8150434607681992354
+    second: tiles_ciudad 1_57
+  - first:
+      213: -1076542937333360066
+    second: tiles_ciudad 1_58
+  - first:
+      213: 2140382170530014123
+    second: tiles_ciudad 1_59
+  - first:
+      213: 8632836625920131571
+    second: tiles_ciudad 1_60
+  - first:
+      213: -127761508427840460
+    second: tiles_ciudad 1_61
+  - first:
+      213: -7994191510431348846
+    second: tiles_ciudad 1_62
+  - first:
+      213: -4873956969978176846
+    second: tiles_ciudad 1_63
+  - first:
+      213: -3609499612558693771
+    second: tiles_ciudad 1_64
+  - first:
+      213: -420550344360086419
+    second: tiles_ciudad 1_65
+  - first:
+      213: 8518525005573649640
+    second: tiles_ciudad 1_66
+  - first:
+      213: 452948349556760945
+    second: tiles_ciudad 1_67
+  - first:
+      213: -5637427235717081931
+    second: tiles_ciudad 1_68
+  - first:
+      213: 2896742246833801397
+    second: tiles_ciudad 1_69
+  - first:
+      213: 4947546960489452526
+    second: tiles_ciudad 1_70
+  - first:
+      213: -8675685692537828426
+    second: tiles_ciudad 1_71
+  - first:
+      213: 3327445881393305104
+    second: tiles_ciudad 1_72
+  - first:
+      213: -7500795972480211082
+    second: tiles_ciudad 1_73
+  - first:
+      213: 2533145955407274773
+    second: tiles_ciudad 1_74
+  - first:
+      213: -8495278600471080347
+    second: tiles_ciudad 1_75
+  - first:
+      213: 7434686688920614905
+    second: ARBOLES_2
+  - first:
+      213: -6129470600297513536
+    second: tiles_ciudad 1_77
+  - first:
+      213: -7084840164534068211
+    second: tiles_ciudad 1_78
+  - first:
+      213: -8348283591745149906
+    second: tiles_ciudad 1_79
+  - first:
+      213: -4763429014039957858
+    second: tiles_ciudad 1_80
+  - first:
+      213: -3995071034553531345
+    second: vias_tren
+  - first:
+      213: 5764163205362214083
+    second: tiles_ciudad 1_82
+  - first:
+      213: 342787577223628110
+    second: tiles_ciudad 1_83
+  - first:
+      213: -7808733501959540730
+    second: tiles_ciudad 1_84
+  - first:
+      213: 427251403423863849
+    second: tiles_ciudad 1_85
+  - first:
+      213: -5585157378274164791
+    second: tiles_ciudad 1_86
+  - first:
+      213: 2872412071644529679
+    second: tiles_ciudad 1_87
+  - first:
+      213: -7895549613698936088
+    second: tiles_ciudad 1_88
+  - first:
+      213: -6987901769316369547
+    second: tiles_ciudad 1_89
+  - first:
+      213: -7422860998534520389
+    second: tiles_ciudad 1_90
+  - first:
+      213: -3597627632897729341
+    second: tiles_ciudad 1_91
+  - first:
+      213: 5464498657245041791
+    second: tiles_ciudad 1_92
+  - first:
+      213: 1987394604348786293
+    second: tiles_ciudad 1_93
+  - first:
+      213: -1560929043320856943
+    second: tiles_ciudad 1_94
+  - first:
+      213: -7578819337998101427
+    second: tiles_ciudad 1_95
+  - first:
+      213: -5976967595533624668
+    second: tiles_ciudad 1_96
+  - first:
+      213: -6033020776577511201
+    second: tiles_ciudad 1_97
+  - first:
+      213: -5277755552983934703
+    second: tiles_ciudad 1_98
+  - first:
+      213: -720455994685229779
+    second: tiles_ciudad 1_99
+  - first:
+      213: -3352568276362065321
+    second: tiles_ciudad 1_100
+  - first:
+      213: -4841560468869018108
+    second: tiles_ciudad 1_101
+  - first:
+      213: -1233627985239740138
+    second: tiles_ciudad 1_102
+  - first:
+      213: -8114649056436776608
+    second: tiles_ciudad 1_103
+  - first:
+      213: 1463159477927567915
+    second: tiles_ciudad 1_104
+  - first:
+      213: 5454338063868151517
+    second: tiles_ciudad 1_105
+  - first:
+      213: -7255788010045278953
+    second: tiles_ciudad 1_106
+  - first:
+      213: -2401759734328243327
+    second: tiles_ciudad 1_107
+  - first:
+      213: -1420832764470120864
+    second: tiles_ciudad 1_108
+  - first:
+      213: 8078210203845093389
+    second: tiles_ciudad 1_109
+  - first:
+      213: 6268424393692141264
+    second: tiles_ciudad 1_110
+  - first:
+      213: -283013309395578482
+    second: tiles_ciudad 1_111
+  - first:
+      213: -4590031373989016791
+    second: tiles_ciudad 1_112
+  - first:
+      213: -5347134033323716185
+    second: tiles_ciudad 1_113
+  - first:
+      213: -8213392292149824812
+    second: tiles_ciudad 1_114
+  - first:
+      213: 8549879653233277784
+    second: tiles_ciudad 1_115
+  - first:
+      213: 2773484479064030462
+    second: tiles_ciudad 1_116
+  - first:
+      213: -7116813432056168390
+    second: tiles_ciudad 1_117
+  - first:
+      213: 5074869219636905441
+    second: tiles_ciudad 1_118
+  - first:
+      213: 2973201666566627287
+    second: tiles_ciudad 1_119
+  - first:
+      213: 4147122890291615953
+    second: tiles_ciudad 1_120
+  - first:
+      213: -5651561012322420895
+    second: bicisenda_2
+  - first:
+      213: -7288608469362932446
+    second: tiles_ciudad 1_122
+  - first:
+      213: -9136149524853119320
+    second: tiles_ciudad 1_123
+  - first:
+      213: -2855311268053871624
+    second: tiles_ciudad 1_124
+  - first:
+      213: -5912379361531629973
+    second: tiles_ciudad 1_125
+  - first:
+      213: -8497722824701148358
+    second: tiles_ciudad 1_126
+  - first:
+      213: 8966126417882977035
+    second: tiles_ciudad 1_127
+  - first:
+      213: -2540217016045060099
+    second: tiles_ciudad 1_128
+  - first:
+      213: -4811086973455761934
+    second: tiles_ciudad 1_129
+  - first:
+      213: 5425769275080288444
+    second: tiles_ciudad 1_130
+  - first:
+      213: -3146947720235289584
+    second: tiles_ciudad 1_131
+  - first:
+      213: -1962789045585654703
+    second: tiles_ciudad 1_132
+  - first:
+      213: 3796953865865602695
+    second: tiles_ciudad 1_133
+  - first:
+      213: 1446141921564376509
+    second: tiles_ciudad 1_134
+  - first:
+      213: 776428662541630481
+    second: tiles_ciudad 1_135
+  - first:
+      213: -228028700185047298
+    second: tiles_ciudad 1_136
+  - first:
+      213: 276802691661392032
+    second: tiles_ciudad 1_137
+  - first:
+      213: -3376357151251236465
+    second: tiles_ciudad 1_138
+  - first:
+      213: -3581569407312067358
+    second: tiles_ciudad 1_139
+  - first:
+      213: -575294808283871296
+    second: tiles_ciudad 1_140
+  - first:
+      213: -7977861506508537451
+    second: calles_bus
+  - first:
+      213: -8542125303978163631
+    second: tiles_ciudad 1_142
+  - first:
+      213: 4176961536378389772
+    second: tiles_ciudad 1_143
+  - first:
+      213: -2358366340922405786
+    second: tiles_ciudad 1_144
+  - first:
+      213: -7361670313169890547
+    second: tiles_ciudad 1_145
+  - first:
+      213: 1364841324448621988
+    second: tiles_ciudad 1_146
+  - first:
+      213: -5519608033148026606
+    second: tiles_ciudad 1_147
+  - first:
+      213: 4020626583240779119
+    second: tiles_ciudad 1_148
+  - first:
+      213: -1400106441828791751
+    second: tiles_ciudad 1_149
+  - first:
+      213: -321390797208261042
+    second: tiles_ciudad 1_150
+  - first:
+      213: -4328482273095529819
+    second: tiles_ciudad 1_151
+  - first:
+      213: -1726499844707571081
+    second: tiles_ciudad 1_152
+  - first:
+      213: 6326983964829183135
+    second: tiles_ciudad 1_153
+  - first:
+      213: -5557540706856133324
+    second: tiles_ciudad 1_154
+  - first:
+      213: -5383885424736524667
+    second: tiles_ciudad 1_155
+  - first:
+      213: 5337759979204205451
+    second: tiles_ciudad 1_156
+  - first:
+      213: -8337038595201629502
+    second: tiles_ciudad 1_157
+  - first:
+      213: -2987041531310427785
+    second: tiles_ciudad 1_158
+  - first:
+      213: -5267075975576180756
+    second: tiles_ciudad 1_159
+  - first:
+      213: -59621280634743104
+    second: tiles_ciudad 1_160
+  - first:
+      213: -1705552619212578975
+    second: tiles_ciudad 1_161
+  - first:
+      213: 1773566991160680769
+    second: tiles_ciudad 1_162
+  - first:
+      213: -3935921487537507129
+    second: tiles_ciudad 1_163
+  - first:
+      213: 6837371964683492402
+    second: tiles_ciudad 1_164
+  - first:
+      213: -3672265297290941425
+    second: tiles_ciudad 1_165
+  - first:
+      213: 4890329700503751933
+    second: tiles_ciudad 1_166
+  - first:
+      213: -6932440792595083739
+    second: tiles_ciudad 1_167
+  - first:
+      213: -2655341978410371082
+    second: tiles_ciudad 1_168
+  - first:
+      213: -594144798801207386
+    second: tiles_ciudad 1_169
+  - first:
+      213: 1816695321550161409
+    second: tiles_ciudad 1_170
+  - first:
+      213: 944066040113658843
+    second: tiles_ciudad 1_171
+  - first:
+      213: 8244377113472961222
+    second: tiles_ciudad 1_172
+  - first:
+      213: -669189964911788544
+    second: tiles_ciudad 1_173
+  - first:
+      213: 7981992900216733164
+    second: tiles_ciudad 1_174
+  - first:
+      213: -7715737045065642422
+    second: tiles_ciudad 1_175
+  - first:
+      213: -8569046677234652703
+    second: tiles_ciudad 1_176
+  - first:
+      213: 3577629159888278551
+    second: tiles_ciudad 1_177
+  - first:
+      213: 1254714530664240969
+    second: tiles_ciudad 1_178
+  - first:
+      213: -7754726862063626372
+    second: tiles_ciudad 1_179
+  - first:
+      213: 8196742000846846769
+    second: tiles_ciudad 1_180
+  - first:
+      213: 4025709684298039057
+    second: calle_basica
+  - first:
+      213: 4197852660573165295
+    second: tiles_ciudad 1_182
+  - first:
+      213: 4687527865125611052
+    second: tiles_ciudad 1_183
+  - first:
+      213: 4233124009542662369
+    second: tiles_ciudad 1_184
+  - first:
+      213: 1801618377778681110
+    second: tiles_ciudad 1_185
+  - first:
+      213: -8014859417571340876
+    second: tiles_ciudad 1_186
+  - first:
+      213: 6123680290414408941
+    second: tiles_ciudad 1_187
+  - first:
+      213: 3810339513238774701
+    second: tiles_ciudad 1_188
+  - first:
+      213: 8098826710463993400
+    second: tiles_ciudad 1_189
+  - first:
+      213: 1636957151246979164
+    second: tiles_ciudad 1_190
+  - first:
+      213: -5199616767364637603
+    second: tiles_ciudad 1_191
+  - first:
+      213: 866745872628531385
+    second: tiles_ciudad 1_192
+  - first:
+      213: 6521255618890069288
+    second: tiles_ciudad 1_193
+  - first:
+      213: -4749949743606773944
+    second: tiles_ciudad 1_194
+  - first:
+      213: 27102058578895739
+    second: tiles_ciudad 1_195
+  - first:
+      213: -6660049746013618821
+    second: tiles_ciudad 1_196
+  - first:
+      213: -960939385985667814
+    second: tiles_ciudad 1_197
+  - first:
+      213: 5571694043378718317
+    second: tiles_ciudad 1_198
+  - first:
+      213: -5117543723120380587
+    second: tiles_ciudad 1_199
+  - first:
+      213: 3095484459383128803
+    second: tiles_ciudad 1_200
+  - first:
+      213: -8255289590355328878
+    second: tiles_ciudad 1_201
+  - first:
+      213: -1305107596904469007
+    second: tiles_ciudad 1_202
+  - first:
+      213: 7189331201436709017
+    second: tiles_ciudad 1_203
+  - first:
+      213: -9000929416379754429
+    second: tiles_ciudad 1_204
+  - first:
+      213: -3067914451126634561
+    second: tiles_ciudad 1_205
+  - first:
+      213: 6891266939471070689
+    second: tiles_ciudad 1_206
+  - first:
+      213: -724813336433693575
+    second: tiles_ciudad 1_207
+  - first:
+      213: 8071221953241990439
+    second: tiles_ciudad 1_208
+  - first:
+      213: 6204545188119561179
+    second: tiles_ciudad 1_209
+  - first:
+      213: -3267423640765884858
+    second: tiles_ciudad 1_210
+  - first:
+      213: -1589537530464403954
+    second: tiles_ciudad 1_211
+  - first:
+      213: -725602050534698740
+    second: tiles_ciudad 1_212
+  - first:
+      213: -4797682864902269438
+    second: tiles_ciudad 1_213
+  - first:
+      213: -87330604910711124
+    second: tiles_ciudad 1_214
+  - first:
+      213: -4187168188445406047
+    second: tiles_ciudad 1_215
+  - first:
+      213: 2998419389940836670
+    second: tiles_ciudad 1_216
+  - first:
+      213: 417120249544441677
+    second: tiles_ciudad 1_217
+  - first:
+      213: 6087365856269985029
+    second: tiles_ciudad 1_218
+  - first:
+      213: 2002057760183285110
+    second: tiles_ciudad 1_219
+  - first:
+      213: -3073462289822915451
+    second: tiles_ciudad 1_220
+  - first:
+      213: 8319597991014756074
+    second: cesped_todo
+  - first:
+      213: -3401834998472280269
+    second: tiles_ciudad 1_222
+  - first:
+      213: 4843872834472691249
+    second: tiles_ciudad 1_223
+  - first:
+      213: -7069108885024796887
+    second: tiles_ciudad 1_224
+  - first:
+      213: 2043437055477210031
+    second: tiles_ciudad 1_225
+  - first:
+      213: -4560063047828939194
+    second: tiles_ciudad 1_226
+  - first:
+      213: -4227067604167252329
+    second: tiles_ciudad 1_227
+  - first:
+      213: 696230977812572199
+    second: tiles_ciudad 1_228
+  - first:
+      213: -4126806764523025550
+    second: tiles_ciudad 1_229
+  - first:
+      213: 7966598020489503333
+    second: tiles_ciudad 1_230
+  - first:
+      213: 4121787375123504127
+    second: tiles_ciudad 1_231
+  - first:
+      213: 8313998992800578957
+    second: tiles_ciudad 1_232
+  - first:
+      213: 6447235834050129004
+    second: tiles_ciudad 1_233
+  - first:
+      213: -2787947825747657356
+    second: tiles_ciudad 1_234
+  - first:
+      213: -8411508306224392724
+    second: tiles_ciudad 1_235
+  - first:
+      213: 7549603484088247224
+    second: tiles_ciudad 1_236
+  - first:
+      213: -2543809663950879061
+    second: tiles_ciudad 1_237
+  - first:
+      213: -5978102018432190972
+    second: tiles_ciudad 1_238
+  - first:
+      213: -5864849081566711958
+    second: tiles_ciudad 1_239
+  - first:
+      213: -548830547140153494
+    second: tiles_ciudad 1_240
+  - first:
+      213: -1154371539835632501
+    second: cesped_grande
+  - first:
+      213: -3800648395957180682
+    second: tiles_ciudad 1_242
+  - first:
+      213: -119874865511121067
+    second: tiles_ciudad 1_243
+  - first:
+      213: 269048020596489919
+    second: tiles_ciudad 1_244
+  - first:
+      213: -4711789375074249526
+    second: tiles_ciudad 1_245
+  - first:
+      213: 4805942582166689908
+    second: tiles_ciudad 1_246
+  - first:
+      213: -45039234840220485
+    second: tiles_ciudad 1_247
+  - first:
+      213: -7075045895403976508
+    second: tiles_ciudad 1_248
+  - first:
+      213: -1755639651567275376
+    second: tiles_ciudad 1_249
+  - first:
+      213: 5537931405784946862
+    second: tiles_ciudad 1_250
+  - first:
+      213: 755559886866367622
+    second: tiles_ciudad 1_251
+  - first:
+      213: -3691457722528303121
+    second: tiles_ciudad 1_252
+  - first:
+      213: 3271203917546088868
+    second: tiles_ciudad 1_253
+  - first:
+      213: 471216232687093715
+    second: tiles_ciudad 1_254
+  - first:
+      213: 7156709416307622467
+    second: tiles_ciudad 1_255
+  - first:
+      213: 3905027135803020702
+    second: tiles_ciudad 1_256
+  - first:
+      213: 3495115747454800862
+    second: tiles_ciudad 1_257
+  - first:
+      213: -6214576561941975253
+    second: tiles_ciudad 1_258
+  - first:
+      213: -5355072744255680692
+    second: tiles_ciudad 1_259
+  - first:
+      213: 3441566908800992512
+    second: tiles_ciudad 1_260
+  - first:
+      213: -1598908131469743219
+    second: vereda_1
+  - first:
+      213: -575802250716349550
+    second: tiles_ciudad 1_262
+  - first:
+      213: 7187893744236396144
+    second: tiles_ciudad 1_263
+  - first:
+      213: 8064978426621795525
+    second: tiles_ciudad 1_264
+  - first:
+      213: 4516270759470116823
+    second: tiles_ciudad 1_265
+  - first:
+      213: 1882034327579355304
+    second: tiles_ciudad 1_266
+  - first:
+      213: -932020343174971894
+    second: tiles_ciudad 1_267
+  - first:
+      213: 3935990089124917327
+    second: tiles_ciudad 1_268
+  - first:
+      213: -6825582857770409719
+    second: tiles_ciudad 1_269
+  - first:
+      213: -2642142296595271420
+    second: tiles_ciudad 1_270
+  - first:
+      213: -7979523976685671641
+    second: tiles_ciudad 1_271
+  - first:
+      213: 2939188332127288171
+    second: tiles_ciudad 1_272
+  - first:
+      213: 4983005609298345140
+    second: tiles_ciudad 1_273
+  - first:
+      213: 364197347482039740
+    second: tiles_ciudad 1_274
+  - first:
+      213: 6893358009000673616
+    second: tiles_ciudad 1_275
+  - first:
+      213: -4198522944879817687
+    second: tiles_ciudad 1_276
+  - first:
+      213: -3005438907949721339
+    second: tiles_ciudad 1_277
+  - first:
+      213: 3069213385875191458
+    second: tiles_ciudad 1_278
+  - first:
+      213: 8648229174233032245
+    second: tiles_ciudad 1_279
+  - first:
+      213: 8295448145030184913
+    second: tiles_ciudad 1_280
+  - first:
+      213: 2335762040337157520
+    second: vereda_0
+  - first:
+      213: -3391073743707942565
+    second: tiles_ciudad 1_282
+  - first:
+      213: 608399828539329420
+    second: tiles_ciudad 1_283
+  - first:
+      213: 26183504281096251
+    second: tiles_ciudad 1_284
+  - first:
+      213: 4577181690624458345
+    second: tiles_ciudad 1_285
+  - first:
+      213: 6857687632007730776
+    second: tiles_ciudad 1_286
+  - first:
+      213: -3623986834715677538
+    second: tiles_ciudad 1_287
+  - first:
+      213: -2158190864466509170
+    second: tiles_ciudad 1_288
+  - first:
+      213: 3793406985924972666
+    second: tiles_ciudad 1_289
+  - first:
+      213: -8607035311370333737
+    second: tiles_ciudad 1_290
+  - first:
+      213: -7111309915732637579
+    second: tiles_ciudad 1_291
+  - first:
+      213: -6161391234647100348
+    second: tiles_ciudad 1_292
+  - first:
+      213: 3619716562714542560
+    second: tiles_ciudad 1_293
+  - first:
+      213: -6009971763821224215
+    second: tiles_ciudad 1_294
+  - first:
+      213: 2523757791043583490
+    second: tiles_ciudad 1_295
+  - first:
+      213: 3042184330828777434
+    second: tiles_ciudad 1_296
+  - first:
+      213: -3456725713159701366
+    second: tiles_ciudad 1_297
+  - first:
+      213: -8848049646022748872
+    second: tiles_ciudad 1_298
+  - first:
+      213: 5330836414514197762
+    second: tiles_ciudad 1_299
+  - first:
+      213: 6112105914393867018
+    second: tiles_ciudad 1_300
+  - first:
+      213: 7523284020106361609
+    second: vereda_2
+  - first:
+      213: 7121999552102305653
+    second: tiles_ciudad 1_302
+  - first:
+      213: -8557865081231952817
+    second: tiles_ciudad 1_303
+  - first:
+      213: -1024686585477675636
+    second: tiles_ciudad 1_304
+  - first:
+      213: -5044255699402199861
+    second: tiles_ciudad 1_305
+  - first:
+      213: -1021956539656131009
+    second: tiles_ciudad 1_306
+  - first:
+      213: 5588465330761408892
+    second: tiles_ciudad 1_307
+  - first:
+      213: 4452615479244381708
+    second: tiles_ciudad 1_308
+  - first:
+      213: 6577979224731491460
+    second: tiles_ciudad 1_309
+  - first:
+      213: 2931953973723299335
+    second: tiles_ciudad 1_310
+  - first:
+      213: 6112849146872964946
+    second: tiles_ciudad 1_311
+  - first:
+      213: -5938375466223859135
+    second: tiles_ciudad 1_312
+  - first:
+      213: 2618369563620175621
+    second: tiles_ciudad 1_313
+  - first:
+      213: -742456686621810001
+    second: tiles_ciudad 1_314
+  - first:
+      213: 3986266378081531804
+    second: tiles_ciudad 1_315
+  - first:
+      213: 4376605507309338034
+    second: tiles_ciudad 1_316
+  - first:
+      213: 4354446743336162670
+    second: tiles_ciudad 1_317
+  - first:
+      213: -5575100718286543325
+    second: tiles_ciudad 1_318
+  - first:
+      213: -266081050935290494
+    second: tiles_ciudad 1_319
+  - first:
+      213: 6592804594976956633
+    second: tiles_ciudad 1_320
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tiles_ciudad 1_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61bc87d6d10a1bce0800000000000000
+      internalID: -1391154761629644010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_ciudad 1_3
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd2d66f84a6c13c0800000000000000
+      internalID: -4387515075361165840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_ciudad 1_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a371a4325549f9d0800000000000000
+      internalID: -2740082678905605215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_ciudad 1_5
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb9b96c07f9f8a40800000000000000
+      internalID: 5372688187193531359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_ciudad 1_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e40b64f166d603f0800000000000000
+      internalID: -934824156431973149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_ciudad 1_7
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318d7786585f0c840800000000000000
+      internalID: 5242459919591397395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_ciudad 1_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 336
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880096dc5f16ec9a0800000000000000
+      internalID: -6210919127756242808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_ciudad 1_9
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6697cbd8f67d1270800000000000000
+      internalID: 8222859305859651183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_ciudad 1_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ea35a7a8df616d0800000000000000
+      internalID: -3019947728905720259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_ciudad 1_11
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 336
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc47b6eba8e94c100800000000000000
+      internalID: 127401008210605259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_ciudad 1_12
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1f11f30f70f7a00800000000000000
+      internalID: 756331990853218741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_ciudad 1_13
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b05e4ac31b615550800000000000000
+      internalID: 6147812699080118457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_ciudad 1_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ace6ace976b1f520800000000000000
+      internalID: 2734167083568262311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_ciudad 1_15
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0432c7359163d90800000000000000
+      internalID: -7118474314656825113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_ciudad 1_16
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0923ebb4975ec360800000000000000
+      internalID: 7191781951276263691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_ciudad 1_17
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e139cd51446eedfd0800000000000000
+      internalID: -2315159978322914530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_ciudad 1_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ade1b43f01bec60800000000000000
+      internalID: 7848385412746631788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_ciudad 1_19
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941013f3f617bdf70800000000000000
+      internalID: 9213082185331966281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_ciudad 1_20
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17507e57d5e09c20800000000000000
+      internalID: 3211319247480313631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_ciudad 1_21
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ecf2be1a772cf20800000000000000
+      internalID: 3441444602583698994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_ciudad 1_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace8850da505d9db0800000000000000
+      internalID: -4783578878224855350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_ciudad 1_23
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d2ef13b052e7db0800000000000000
+      internalID: -4792352223462019744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_ciudad 1_24
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4fcb6a4eec8e790800000000000000
+      internalID: -7500517697940294438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arboles_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 320
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c4f29b51e43f040800000000000000
+      internalID: 4680170292976241816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ARBOLES_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272
+        width: 320
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7307527205d2760800000000000000
+      internalID: 7434686688920614905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vias_tren
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 320
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f240cf49f08ae88c0800000000000000
+      internalID: -3995071034553531345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bicisenda_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 320
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167331ad33f9191b0800000000000000
+      internalID: -5651561012322420895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calles_bus
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 320
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591cb457a31f84190800000000000000
+      internalID: -7977861506508537451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: calle_basica
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 320
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f3f65f0a13ed730800000000000000
+      internalID: 4025709684298039057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cesped_todo
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 320
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeeec703b46257370800000000000000
+      internalID: 8319597991014756074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cesped_grande
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84c64d5339daffe0800000000000000
+      internalID: -1154371539835632501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vereda_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 320
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b234b96898fc9e0800000000000000
+      internalID: -1598908131469743219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vereda_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 320
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d4326433b4a6020800000000000000
+      internalID: 2335762040337157520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vereda_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 320
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90bffcac4f2186860800000000000000
+      internalID: 7523284020106361609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cesped_peq
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425393fad346eabf0800000000000000
+      internalID: -311201108146440924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bicisenda_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 209
+        width: 320
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849404d99f21c8ba0800000000000000
+      internalID: -6085468133189990072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vereda_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 320
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e020d5bc8bdfa27a0800000000000000
+      internalID: -6401024950226058738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
