@@ -3268,7 +3268,7 @@ RectTransform:
   - {fileID: 26470651}
   - {fileID: 1401757754}
   m_Father: {fileID: 1036274602}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -3295,9 +3295,9 @@ MonoBehaviour:
   ciclovia_panel: {fileID: 725164234}
   solobus_panel: {fileID: 26470650}
   caminata_panel: {fileID: 1401757753}
-  boton_mejorar_ciclovias: {fileID: 864706758}
-  boton_mejorar_solobus: {fileID: 1115811920}
-  boton_mejorar_caminata: {fileID: 103856182}
+  boton_mejorar_ciclovias: {fileID: 0}
+  boton_mejorar_solobus: {fileID: 0}
+  boton_mejorar_caminata: {fileID: 0}
   check_ciclovias_listo: {fileID: 1336952314}
   check_solobus_listo: {fileID: 210972301}
   check_caminata_listo: {fileID: 68749848}
@@ -3898,7 +3898,7 @@ RectTransform:
   - {fileID: 1458815269}
   - {fileID: 1164337531}
   m_Father: {fileID: 1036274602}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -13889,7 +13889,7 @@ RectTransform:
   - {fileID: 1338306167}
   - {fileID: 1822298489}
   m_Father: {fileID: 1036274602}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -14839,10 +14839,10 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1534190965}
+  - {fileID: 1200850160}
   - {fileID: 243636337}
   - {fileID: 976934969}
   - {fileID: 194734267}
-  - {fileID: 1200850160}
   m_Father: {fileID: 4822298}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -16721,11 +16721,11 @@ RectTransform:
   - {fileID: 1430567165}
   - {fileID: 1241861392}
   m_Father: {fileID: 1036274602}
-  m_RootOrder: 4
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 838, y: 297.7}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 532, y: -325.2}
   m_SizeDelta: {x: 96, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1200850162
