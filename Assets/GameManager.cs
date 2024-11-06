@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
 using UnityEngine.PlayerLoop;
+using UnityEngine.SceneManagement;
+
 
 public enum TipoVehiculo {AUTO, BUS, BICICLETA, TREN, PEATON}
 
@@ -301,5 +303,11 @@ public class GameManager : MonoBehaviour
         bus_slider.onValueChanged.AddListener(Update_BusesTargetCount);
         bici_slider.onValueChanged.AddListener(Update_BicicletasTargetCount);
         tren_slider.onValueChanged.AddListener(Update_TrenesTargetCount);
+    }
+
+    // Reinicia la escena actual
+    public void Reiniciar_Escena()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

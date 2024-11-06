@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UI_PanelesInfo : MonoBehaviour
 {
@@ -16,9 +17,9 @@ public class UI_PanelesInfo : MonoBehaviour
 
     [Space]
 
-    public GameObject boton_mejorar_ciclovias;
-    public GameObject boton_mejorar_solobus;
-    public GameObject boton_mejorar_caminata;
+    public Button boton_mejorar_ciclovias;
+    public Button boton_mejorar_solobus;
+    public Button boton_mejorar_caminata;
     [Space]
     public GameObject check_ciclovias_listo;
     public GameObject check_solobus_listo;
@@ -49,21 +50,21 @@ public class UI_PanelesInfo : MonoBehaviour
     public void Mostrar_MejoraCiclovia()
     {
         ApagarTodosLosHijos();
-        boton_mejorar_ciclovias.SetActive(false);
+        boton_mejorar_ciclovias.interactable = false ;
         check_ciclovias_listo.SetActive(true);
     }
 
     public void Mostrar_MejoraSolobus()
     {
         ApagarTodosLosHijos();
-        boton_mejorar_solobus.SetActive(false);
+        boton_mejorar_solobus.interactable = false ;
         check_solobus_listo.SetActive(true);
     }
 
     public void Mostrar_MejoraCaminata()
     {
         ApagarTodosLosHijos();
-        boton_mejorar_caminata.SetActive(false);
+        boton_mejorar_caminata.interactable = false ;
         check_caminata_listo.SetActive(true);
     }
 
