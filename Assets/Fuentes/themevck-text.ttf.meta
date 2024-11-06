@@ -1,15 +1,15 @@
 fileFormatVersion: 2
-guid: 8f9518830f5871245ba440fbc4bb937d
+guid: b08988c3f54d337468703484863e6893
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
   fontSize: 16
-  forceTextureCase: -2
+  forceTextureCase: -1
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Abaddon Bold
+  - ThemeVCK Text
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 2

@@ -1,18 +1,18 @@
 fileFormatVersion: 2
-guid: 8f9518830f5871245ba440fbc4bb937d
+guid: 31958083cae30fd4eb555b9ab9444070
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
-  fontSize: 16
-  forceTextureCase: -2
+  fontSize: 32
+  forceTextureCase: -1
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Abaddon Bold
+  - TinyUnicode
   fallbackFontReferences: []
   customCharacters: 
-  fontRenderingMode: 2
+  fontRenderingMode: 0
   ascentCalculationMode: 1
   useLegacyBoundsCalculation: 0
   shouldRoundAdvanceValue: 1

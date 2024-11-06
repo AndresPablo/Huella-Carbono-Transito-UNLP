@@ -1,15 +1,15 @@
 fileFormatVersion: 2
-guid: 8f9518830f5871245ba440fbc4bb937d
+guid: c32d7fead8640ce4e8dc0fa51262c4fc
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
   fontSize: 16
-  forceTextureCase: -2
+  forceTextureCase: -1
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Abaddon Bold
+  - Nokia Cellphone FC
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 2

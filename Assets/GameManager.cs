@@ -146,7 +146,7 @@ public class GameManager : MonoBehaviour
     public void GenerarTransportes()
     {
         float r = Random.Range(0,1f);
-        if((r>.90f - (trenesTargetCount-1)*(.15f)) && trenes_actuales < 1 && trenesTargetCount > 0)
+        if(r>.85f && trenes_actuales < trenesTargetCount-1)
         {
             Agente nuevo_tren = spawner.GenerarTren();
             
