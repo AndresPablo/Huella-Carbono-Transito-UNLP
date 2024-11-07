@@ -102,9 +102,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
   m_Name: nokiafc22
   m_EditorClassIdentifier: 
-  hashCode: 0
+  hashCode: 421579879
   material: {fileID: -583621397111255719}
-  materialHashCode: 0
+  materialHashCode: -1790714265
   m_Version: 1.1.0
   m_SourceFontFileGUID: c32d7fead8640ce4e8dc0fa51262c4fc
   m_SourceFontFile_EditorRef: {fileID: 12800000, guid: c32d7fead8640ce4e8dc0fa51262c4fc, type: 3}

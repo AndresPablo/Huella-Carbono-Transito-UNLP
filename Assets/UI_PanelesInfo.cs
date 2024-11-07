@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class UI_PanelesInfo : MonoBehaviour
 {
@@ -17,16 +18,13 @@ public class UI_PanelesInfo : MonoBehaviour
 
     [Space]
 
-    public Button boton_mejorar_ciclovias;
-    public Button boton_mejorar_solobus;
-    public Button boton_mejorar_caminata;
+    public GameObject boton_mejorar_ciclovias;
+    public GameObject boton_mejorar_solobus;
+    public GameObject boton_mejorar_caminata;
     [Space]
     public GameObject check_ciclovias_listo;
     public GameObject check_solobus_listo;
     public GameObject check_caminata_listo;
-
-
-
 
 
     void Start()
@@ -50,21 +48,24 @@ public class UI_PanelesInfo : MonoBehaviour
     public void Mostrar_MejoraCiclovia()
     {
         ApagarTodosLosHijos();
-        boton_mejorar_ciclovias.interactable = false ;
+        boton_mejorar_ciclovias.GetComponent<Button>().interactable = false;
+        boton_mejorar_ciclovias.GetComponentInChildren<TextMeshProUGUI>().color = new Color(0, 0, 0, 0.73f);
         check_ciclovias_listo.SetActive(true);
     }
 
     public void Mostrar_MejoraSolobus()
     {
         ApagarTodosLosHijos();
-        boton_mejorar_solobus.interactable = false ;
+        boton_mejorar_solobus.GetComponent<Button>().interactable = false;
+        boton_mejorar_solobus.GetComponentInChildren<TextMeshProUGUI>().color = new Color(0, 0, 0, 0.73f);
         check_solobus_listo.SetActive(true);
     }
 
     public void Mostrar_MejoraCaminata()
     {
         ApagarTodosLosHijos();
-        boton_mejorar_caminata.interactable = false ;
+        boton_mejorar_caminata.GetComponent<Button>().interactable = false; 
+        boton_mejorar_caminata.GetComponentInChildren<TextMeshProUGUI>().color =  new Color(0, 0, 0, 0.73f);
         check_caminata_listo.SetActive(true);
     }
 

@@ -28,7 +28,7 @@ public class MonitorInactividad : MonoBehaviour
     }
 
     // Reinicia la escena actual
-    void RestartScene()
+    public void RestartScene()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }

@@ -5,7 +5,6 @@ using UnityEngine;
 using UnityEngine.PlayerLoop;
 using UnityEngine.SceneManagement;
 
-
 public enum TipoVehiculo {AUTO, BUS, BICICLETA, TREN, PEATON}
 
 
@@ -17,7 +16,7 @@ public class GameManager : MonoBehaviour
         singleton = this;
     }
 
-    [SerializeField] float frecuencia_generacion_min = 0.10f;
+    [SerializeField] float frecuencia_generacion_min = 0.1f;
     [SerializeField] float frecuencia_generacion_max = 0.2f;
 
 
@@ -305,9 +304,9 @@ public class GameManager : MonoBehaviour
         tren_slider.onValueChanged.AddListener(Update_TrenesTargetCount);
     }
 
-    // Reinicia la escena actual
-    public void Reiniciar_Escena()
+    // Método para reiniciar la escena actual
+    public void Resetear_Escena()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
